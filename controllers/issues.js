@@ -201,18 +201,7 @@ const getAllIssues = async (req, res) => {
       res.status(500).json({ error: 'An error occurred while scraping GitHub' });
     }
   };
-  
-  async function scrapeRepositoryInfo(org, repo) {
-    const url = `https://github.com/${org}/${repo}`;
-    const response = await axios.get(url);
-    const $ = cheerio.load(response.data);
-  
-    const repoName = `${repo}`;
-    const orgName = `${org}`;
-  
-  
-    return { repoName, orgName };
-  }
+
   
   async function scrapeCompleteIssues(org, repo) {
     const issues = [];
