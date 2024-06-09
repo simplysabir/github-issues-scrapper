@@ -36,31 +36,31 @@ GitHub Issues Scrapper is a user-friendly API designed to streamline the process
    ```
 
 ## Usage
-Once the server is running, you can use the following endpoints to scrape GitHub issues:
+Once the server is running, you can use the following endpoints to scrape GitHub issues or simply use the deployed api:
 
 1. **Good First Issues:**
    ```
    /api/goodfirstissues/:org/:repo
    ```
-   Example: `http://localhost:3000/api/goodfirstissues/coral-xyz/backpack`
+   Example: `https://github-issues-scrapper.vercel.app/api/goodfirstissues/coral-xyz/backpack`
 
 2. **Help Wanted Issues:**
    ```
    /api/helpwantedissues/:org/:repo
    ```
-   Example: `http://localhost:3000/api/helpwantedissues/coral-xyz/backpack`
+   Example: `https://github-issues-scrapper.vercel.app/api/helpwantedissues/coral-xyz/backpack`
 
 3. **First Timers Only:**
    ```
    /api/firsttimersonly/:org/:repo
    ```
-   Example: `http://localhost:3000/api/firsttimersonly/coral-xyz/backpack`
+   Example: `https://github-issues-scrapper.vercel.app/api/firsttimersonly/coral-xyz/backpack`
 
 4. **All Issues:**
    ```
    /api/all/:org/:repo
    ```
-   Example: `http://localhost:3000/api/all/coral-xyz/backpack`
+   Example: `https://github-issues-scrapper.vercel.app/api/all/coral-xyz/backpack`
 
 ## Contributions
 Your contributions are highly valued. For any enhancements, bug fixes, or feature requests, feel free to fork the repository and submit a pull request. If you're planning significant changes, please open an issue first to discuss what you would like to change.
