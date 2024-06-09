@@ -27,12 +27,12 @@ GitHub Issues Scrapper is a user-friendly API designed to streamline the process
 
 2. **Install Dependencies:**
    ```
-   npm install
+   pnpm install --frozen-lockfile
    ```
 
 3. **Running the Server:**
    ```
-   npm run start
+   pnpm start
    ```
 
 ## Usage
