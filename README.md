@@ -42,25 +42,25 @@ Once the server is running, you can use the following endpoints to scrape GitHub
    ```
    /api/goodfirstissues/:org/:repo
    ```
-   Example: `https://github-issues-scrapper.vercel.app/api/goodfirstissues/coral-xyz/backpack`
+   Example: `https://githubscrapper.simplysabir.xyz/api/goodfirstissues/coral-xyz/backpack`
 
 2. **Help Wanted Issues:**
    ```
    /api/helpwantedissues/:org/:repo
    ```
-   Example: `https://github-issues-scrapper.vercel.app/api/helpwantedissues/coral-xyz/backpack`
+   Example: `https://githubscrapper.simplysabir.xyz/api/helpwantedissues/coral-xyz/backpack`
 
 3. **First Timers Only:**
    ```
    /api/firsttimersonly/:org/:repo
    ```
-   Example: `https://github-issues-scrapper.vercel.app/api/firsttimersonly/coral-xyz/backpack`
+   Example: `https://githubscrapper.simplysabir.xyz/api/firsttimersonly/coral-xyz/backpack`
 
 4. **All Issues:**
    ```
    /api/all/:org/:repo
    ```
-   Example: `https://github-issues-scrapper.vercel.app/api/all/coral-xyz/backpack`
+   Example: `https://githubscrapper.simplysabir.xyz/api/all/coral-xyz/backpack`
 
 ## Contributions
 Your contributions are highly valued. For any enhancements, bug fixes, or feature requests, feel free to fork the repository and submit a pull request. If you're planning significant changes, please open an issue first to discuss what you would like to change.
