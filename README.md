@@ -65,4 +65,4 @@ Once the server is running, you can use the following endpoints to scrape GitHub
 ## Contributions
 Your contributions are highly valued. For any enhancements, bug fixes, or feature requests, feel free to fork the repository and submit a pull request. If you're planning significant changes, please open an issue first to discuss what you would like to change.
 
-Explore more of my work and contributions on [GitHub](https://github.com/simplysabir) or [Portfolio](https://simplysabir.live/).
+Explore more of my work and contributions on [GitHub](https://github.com/simplysabir) or [Portfolio](https://simplysabir.xyz/).
